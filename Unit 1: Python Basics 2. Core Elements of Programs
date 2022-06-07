@@ -1,1 +1,10 @@
+Strings: enclosed in quotations 
+concatenate: use + to put together strings
+  you can also use arithmetic to strings ex. 3*'eric' would output ericericeric
+ 
+len() will return the number of characters in a string 
 
+slice: 
+  [start point: end point (not incl)] 
+  [:end point] returns everything from beg up to end point (not incl end point) 
+  [:] returns copy of the string
