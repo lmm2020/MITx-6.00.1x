@@ -28,3 +28,6 @@ Priority of Order Boolean Operations
 2. not
 3. and
 4. or
+
+
+variable binding with =  (this refers to assigning a value to a variable, ex. y = 5) 
