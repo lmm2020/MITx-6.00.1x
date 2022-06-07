@@ -1,0 +1,30 @@
+Algorithm: conceptual idea 
+Program: concrete instantiation of an algoritm
+
+A computational mode of thinking means that everything can ve viewed as a math problem involving formulas and numbers.
+
+Computers can: perform calculations & remember results
+
+Declarative knowledge refers to statements of fact. 
+Imperative knowlefe refers to "how to" methods.
+
+Fixed program computer: calculator, Turing's bombe
+Stored program computer: sequence
+
+Syntax: determines if a string is legal
+Syntactic errors: example: "hi"5
+Static semantic: determines whether a string has meaning
+Static semantic errors: example: "The sky is heavy" passes on syntax, but is invalid by static semantics - no one can weigh the sky, so this doesn't mean anything.
+Semantics: assigns a meaning to a legal sentence.  // "The sky is blue" both pass on syntax and static semantics (as above) and also on semantics - this is a meaningful sentence.
+
+Scalar objects: example: int, floats, bool, NoneType (special, value=None)
+
+Casting: changing a variable's type. 
+
++= increments and reassigns to variable 
+
+Priority of Order Boolean Operations
+1. Parenthesis
+2. not
+3. and
+4. or
