@@ -8,3 +8,7 @@ slice:
   [start point: end point (not incl)] 
   [:end point] returns everything from beg up to end point (not incl end point) 
   [:] returns copy of the string
+
+input() 
+  this will evaluate whatever is input and return a string. 
+  if you want it to return and int you must cast it as int.
