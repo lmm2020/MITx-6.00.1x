@@ -12,3 +12,5 @@ slice:
 input() 
   this will evaluate whatever is input and return a string. 
   if you want it to return and int you must cast it as int.
+
+IDE: Integrated development environment (text editor)
