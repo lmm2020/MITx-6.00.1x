@@ -14,3 +14,43 @@ input()
   if you want it to return and int you must cast it as int.
 
 IDE: Integrated development environment (text editor)
+
+Control Flow: while loop
+
+  while [condition]:
+    [actions to perform]
+
+    [condition] evaluates to a Boolean
+    if [condition] is True, do all the steps inside the while code block
+    check [condition] again
+    repeat until [condition] is False
+
+In a while loop:
+  unknown number of iterations
+  can end it early with a break 
+  can use a counter but must initialize before loop and increment it inside the loop
+  may not be able to rewrite a while loop using a or loop
+
+Control Flow: for loop
+for n in range(5):
+  print(n)
+
+In a for loop:
+  we know the number of times its going to run through an iteration
+  can end early with a break
+  uses a counter inside the for loop
+  can always rewrite a for loop using a while loop 
+
+break statement: special key word that stops the execution of that loop/code
+  immediately exits whatever loop it is in
+  skips remaining expressions in code block
+  exits only innermost loop
+
+Note: What does +=, -=, *=, /= stand for?
+a += b is equivalent to a = a + b
+
+a -= b is equivalent to a = a - b
+
+a *= b is equivalent to a = a * b
+
+a /= b is equivalent to a = a / b
