@@ -54,3 +54,5 @@ a -= b is equivalent to a = a - b
 a *= b is equivalent to a = a * b
 
 a /= b is equivalent to a = a / b
+
+range(start, stop, step)
