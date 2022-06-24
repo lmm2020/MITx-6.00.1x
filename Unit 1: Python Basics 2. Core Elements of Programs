@@ -57,5 +57,20 @@ a /= b is equivalent to a = a / b
 
 range(start, stop, step)
 
+guess and check method: this is an algorthim caled exhaustive enumeration
+  you guess a value
+  check if solution is correct
+  keep guessing until solution found, or guessed through all values
 
+
+loop  characteristics
+  need a loop variable
+  **initialized outside loop** important to do this!!
+  changes within loop 
+  test for termination depends on variable
+
+useful to think about a decrementing function
+  when loop is entered, value is non-negative
+  when value is <= 0, loop terminates and,
+  value is decreased every time through loop
 
