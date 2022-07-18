@@ -3,7 +3,12 @@
     decomposition: breaking up a larger problem into smaller pieces. These pieces are meant to be reuseable. 
 
 # Functions and Scope
-    
+    Functions: blocks of code you can reuse over and over through your code. They are like compartments in your software that store code for later use. 
+    Name: functions have a name 
+    Parameters: arguments that a function can take, it can have zero OR you can set as many parameters as you need, and they can be any data type, even functions! (this is called Higher Order programming)
+    Docstring: every function should have a docstring; documentation that tells you what it does. 
+    Body: sequence of commands that we want to have happen when we use the funciton. 
+
 # Keyword Arguments
 # Specifications
 # Iteration vs Recursion
