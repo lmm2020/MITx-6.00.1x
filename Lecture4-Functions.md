@@ -9,6 +9,10 @@
     Docstring: every function should have a docstring; documentation that tells you what it does. 
     Body: sequence of commands that we want to have happen when we use the funciton. 
 
+    Scope 
+        
+
+        
 # Keyword Arguments
 # Specifications
 # Iteration vs Recursion
