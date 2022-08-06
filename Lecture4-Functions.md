@@ -11,10 +11,17 @@
 
     Scope 
         
-
-        
 # Keyword Arguments
+    arguments are values given to functions to work with. aka parameters. 
+    the function is invoked by typing the function name and includes the parameters required. 
+
 # Specifications
+    specification is like a contract between the implementer of the function and the client who will use it, via docstring. 
+    Docstrings are good programming practice that states what the function will do, and any conditions. 
+# Functions and Scope
+    global scope is different from smaller scopes
+    functions can be used as arguments of a function
+    
 # Iteration vs Recursion
 # Inductive Reasoning
 # Towers of Hanoi
