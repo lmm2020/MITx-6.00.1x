@@ -52,15 +52,16 @@ Priority of Order Boolean Operations
 3. and
 4. or
 
-variable binding with =  (this refers to assigning a value to a variable, ex. y = 5) 
-
-
 Logic Operators on Booleans
   not a      - will return the opposite of the true/false value that a is
   a and b        - will return True only if both a and b are true
   a or b         - will return True if either a or b are true
 
 ## 2. Core Elements of Programs
+
+variable binding with =  (this refers to assigning a value to a variable, ex. y = 5) 
+
+
 Strings: enclosed in quotations 
 concatenate: use + to put together strings
   you can also use arithmetic to strings ex. 3*'eric' would output ericericeric
