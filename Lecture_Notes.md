@@ -71,6 +71,11 @@ slice:
   [start point: end point (not incl)] 
   [:end point] returns everything from beg up to end point (not incl end point) 
   [:] returns copy of the string
+  [start point:] returns beg point to end
+
+advanced string slicing:
+  [start:end:increment]
+  
 
 input() 
   this will evaluate whatever is input and return a string. 
