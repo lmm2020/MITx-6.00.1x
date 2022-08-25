@@ -1,45 +1,46 @@
-Week 1 
+# Week 1
 
-# Introduction
+## 1. Introduction to Python
+
 Declarative knowledge refers to statements of fact. 
 Imperative knowlefe refers to "how to" methods.
 
-computers often work with imperative knowledge to help us solved problems.
+Computers often work with imperative knowledge to help us solved problems.
 
-Algorithm: conceptual idea, set of instructions that achieves a result. ALL algorithms have:
+Algorithm: conceptual idea, set of instructions that achieves a result. 
+  ALL algorithms have:
     1. a sequence of simple steps
     2. a flow of control process that specifies when each step is executed.
     3. a means of determining when to stop. 
 
 
 Program: concrete instantiation of an algoritm
-    Fixed program computer: calculator, Turing's bombe
+  Fixed program computer: calculator, Turing's bombe
     
-    Stored program computer: is a computer designed to load and calculate different programs, like a laptop that does many things.
+  Stored program computer: is a computer designed to load and calculate different programs, like a laptop that does many things.
+  
+  Program counter: points the computer to the next instruction to execute in the program. 
 
+Computational mode of thinking means that everything can be viewed as a math problem involving formulas and numbers.
 
-A computational mode of thinking means that everything can be viewed as a math problem involving formulas and numbers.
-
-Computers can: perform calculations & remember results. Made of:
+Computers can: perform calculations & remember results. 
+  Made of:
     1. Memory, to store data and instructions for computing
     2. Arithmetic Logic Unit (ALU), computes simple calculations with data stored in the computer's memory.
     3. Control Unit, keep track of what operation the ALU should perform at a specific moment in time (using a program counter)
 
 Syntax: determines if a string is legal
 Syntactic errors: example: "hi"5
-
 Static semantic: determines whether a string has meaning
 Static semantic errors: example: "The sky is heavy" passes on syntax, but is invalid by static semantics - no one can weigh the sky, so this doesn't mean anything.
+Semantics: assigns meaning to a legal sentence.  // "The sky is blue" both pass on syntax and static semantics (as above) and also on semantics - this is a meaningful sentence.
 
-Semantics: assigns a meaning to a legal sentence.  // "The sky is blue" both pass on syntax and static semantics (as above) and also on semantics - this is a meaningful sentence.
+Objects can come as:
+  Scalar objects: cannot be subdivided into smaller parts
+      example: int, floats, bool, NoneType (special, value=None)
 
-# Python Basics
-
-Scalar objects: cannot be subdivided into smaller parts
-    example: int, floats, bool, NoneType (special, value=None)
-
-Non-scalar objects: have an internal structure that can be accessed
-    examples: string 
+  Non-scalar objects: have an internal structure that can be accessed
+      examples: string 
 
 Casting: changing a variable's type. 
 
@@ -51,15 +52,15 @@ Priority of Order Boolean Operations
 3. and
 4. or
 
-
 variable binding with =  (this refers to assigning a value to a variable, ex. y = 5) 
 
 
 Logic Operators on Booleans
-not a          - will return the opposite of the true/false value that a is
-a and b        - will return True only if both a and b are true
-a or b         - will return True if either a or b are true
+  not a      - will return the opposite of the true/false value that a is
+  a and b        - will return True only if both a and b are true
+  a or b         - will return True if either a or b are true
 
+## 2. Core Elements of Programs
 Strings: enclosed in quotations 
 concatenate: use + to put together strings
   you can also use arithmetic to strings ex. 3*'eric' would output ericericeric
