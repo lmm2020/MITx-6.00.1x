@@ -135,3 +135,10 @@ Bisection search is the process used to guess a value for a solution,
     check whether that value is too high or too low to be correct, 
     eliminate all other values that may be too high or too low as well, 
     and keep guessing from the remaining values until a solution is found or all possible values have been guessed
+
+# Week 2
+
+## 3. Simple Algorithms
+lkdams
+## 4. Functions
+lmksda
