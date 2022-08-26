@@ -67,7 +67,7 @@ concatenate: use + to put together strings
   you can also use arithmetic to strings ex. 3*'eric' would output ericericeric
 
 len() will return the number of characters in a string 
-
+ 
 slice: 
   [start point: end point (not incl)] 
   [:end point] returns everything from beg up to end point (not incl end point) 
@@ -84,31 +84,40 @@ input()
 
 IDE: Integrated development environment (text editor)
 
-# Conditionals
-A branching program is a program that can run down many different ways depending on the outcome of a test.
+Conditionals: A branching program can be run down many different ways depending on the outcome of a test.
 
-Use conditional statements (if, else, elif) to perform a test
+  Use conditional statements (if, else, elif) to perform a test
 
-if 2 > 3:                              - a test that will either output true or false
-    print(“2 is greater than 3!”)      - what to do if the test outputs true
+  if 2 > 3:                              - a test that will either output true or false
+      print(“2 is greater than 3!”)      - what to do if the test outputs true
 
-else:                                  
-    print(“2 is not greater than 3.”)  - what to do if the test outputs false
+  else:                                  
+      print(“2 is not greater than 3.”)  - what to do if the test outputs false
 
-elif gives the conditional another test to check if the first one outputs false. There can be multiple elif operators in a conditional. 
+  elif gives the conditional another test to check if the first one outputs false. There can be multiple elif operators in a conditional. 
 
 
-# Loops
-Looping programs are programs that repeat themselves until they satisfy some condition.
+Loops are programs that repeat themselves until they satisfy some condition.
+  For loops have a known number of iterations
+  
+  While loops have an unknown number of iterations
 
-For loops have a known number of iterations
-While loops have an unknown number of iterations
+  both while and for loops can end early with a BREAK statement 
+      break statement: special key word that stops the execution of that loop/code
+    - immediately exits whatever loop it is in
+    - skips remaining expressions in code block
+    - exits only innermost loop
 
-both while and for loops can end early with a BREAK statement 
-    break statement: special key word that stops the execution of that loop/code
-  - immediately exits whatever loop it is in
-  - skips remaining expressions in code block
-  - exits only innermost loop
+loop  characteristics
+  need a loop variable
+  **initialized outside loop** important to do this!!
+  changes within loop 
+  test for termination depends on variable
+
+useful to think about a decrementing function
+  when loop is entered, value is non-negative
+  when value is <= 0, loop terminates and,
+  value is decreased every time through loop
 
 range(start, stop, step)
 
@@ -126,15 +135,3 @@ Bisection search is the process used to guess a value for a solution,
     check whether that value is too high or too low to be correct, 
     eliminate all other values that may be too high or too low as well, 
     and keep guessing from the remaining values until a solution is found or all possible values have been guessed
-
-
-loop  characteristics
-  need a loop variable
-  **initialized outside loop** important to do this!!
-  changes within loop 
-  test for termination depends on variable
-
-useful to think about a decrementing function
-  when loop is entered, value is non-negative
-  when value is <= 0, loop terminates and,
-  value is decreased every time through loop
