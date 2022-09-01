@@ -125,19 +125,25 @@ range(start, stop, step)
     -The stop is the end value for the range() function (not included in output).
     -The step is the number of values to skip between each outputted value. 
 
+
+# Week 2
+## 3. Simple Algorithms
 guess and check method: this is an algorthim caled exhaustive enumeration
   you guess a value
   check if solution is correct
   keep guessing until solution found, or guessed through all values
+
+Approximate Solutions 
+  we guess and increment by a small value(epsilon) to arrive at a good enough solution 
+  -decreasing epsilon -> slower program
+  -increasing epsilon -> less accurate answer
 
 
 Bisection search is the process used to guess a value for a solution, 
     check whether that value is too high or too low to be correct, 
     eliminate all other values that may be too high or too low as well, 
     and keep guessing from the remaining values until a solution is found or all possible values have been guessed
-# Week 2
-## 3. Simple Algorithms
-lkdams
+
 ## 4. Functions
    Decomposition and Abstraction
     abstraction: the idea that you can use a block of code and not need to know what's inside it. (ex: once a function is built, you dont need to know *how* it works, but can trust it to do what it's built for.)
