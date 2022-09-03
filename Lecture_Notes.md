@@ -144,6 +144,27 @@ Bisection search is the process used to guess a value for a solution,
     eliminate all other values that may be too high or too low as well, 
     and keep guessing from the remaining values until a solution is found or all possible values have been guessed
 
+Floats and Fractions
+  floats approximate real numbers
+  internally, computer represents numbers in binary 
+
+Converting decimal integer to binary in Python!:
+num = x
+
+  if num < 0:
+    isNeg = True
+    num = abs(num)
+  else: 
+    isNeg = False
+  result = ' '
+  if num == 0:
+    result = '0'
+  while num > 0:
+    result = str(num%2) + result
+    num = num // 2
+  if isNeg:
+    result = '-' + result 
+
 ## 4. Functions
    Decomposition and Abstraction
     abstraction: the idea that you can use a block of code and not need to know what's inside it. (ex: once a function is built, you dont need to know *how* it works, but can trust it to do what it's built for.)
@@ -169,9 +190,9 @@ Bisection search is the process used to guess a value for a solution,
     global scope is different from smaller scopes
     functions can be used as arguments of a function
     
- Iteration vs Recursion
- Inductive Reasoning
- Towers of Hanoi
- Fibonacci
- Recursion on non-numerics
- Files 
+  Iteration vs Recursion
+  Inductive Reasoning
+  Towers of Hanoi
+  Fibonacci
+  Recursion on non-numerics
+  Files 
