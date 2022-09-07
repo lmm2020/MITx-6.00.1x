@@ -165,6 +165,8 @@ num = x
   if isNeg:
     result = '-' + result 
 
+Newton-Raphson: a general approximation algorithm that finds roots of any polynomial in on variable.  (the root of an equation for example.)
+
 ## 4. Functions
    Decomposition and Abstraction
     abstraction: the idea that you can use a block of code and not need to know what's inside it. (ex: once a function is built, you dont need to know *how* it works, but can trust it to do what it's built for.)
