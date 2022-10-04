@@ -175,12 +175,20 @@ Newton-Raphson: a general approximation algorithm that finds roots of any polyno
   Functions and Scope
     Functions: blocks of code you can reuse over and over through your code. They are like compartments in your software that store code for later use. 
     Name: functions have a name 
-    Parameters: arguments that a function can take, it can have zero OR you can set as many parameters as you need, and they can be any data type, even functions! (this is called Higher Order programming)
+    Parameters: arguments that a function can take, it can have zero OR you can set as many parameters as you need, and they can be any data type, even functions!    
+    (this is called Higher Order programming)
     Docstring: every function should have a docstring; documentation that tells you what it does. 
     Body: sequence of commands that we want to have happen when we use the funciton. 
-
-    Scope 
-        
+  
+  Variable Scopes
+    global scope refers to the entire piece of code 
+    a separate scope exists when referring to variables inside a function 
+    
+    no return statement in a function results in None value. Always provide function a return statement.
+     return vs print
+      return only has meaning inside a function, can only occur once inside function 
+      print can be used outside functions, and execute many print statements 
+  
    Keyword Arguments
     arguments are values given to functions to work with. aka parameters. 
     the function is invoked by typing the function name and includes the parameters required. 
