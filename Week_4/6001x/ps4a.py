@@ -79,8 +79,10 @@ def getWordScore(word, n):
         letter_score = SCRABBLE_LETTER_VALUES[letter] 
         word_count += letter_score
     
+    #generate the score by multiplying word_count by length of the word
     score = word_count * len(word)
 
+    #add 50pt bonus if word length matches hand size (n)
     if len(word) == n:
         score += 50 
     
@@ -186,7 +188,12 @@ def calculateHandlen(hand):
     returns: integer
     """
     # TO DO... <-- Remove this comment when you code this function
-
+    hand_length = 0
+    
+    for letter in hand:
+        hand_length += hand[letter]
+    
+    return hand_length
 
 
 def playHand(hand, wordList, n):
